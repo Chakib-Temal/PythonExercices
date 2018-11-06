@@ -11,11 +11,11 @@ hosting costs and maintenance cost. Deployment will be independent from our exis
 MVP test.
 
 to start : 
-install python , install pip , install django with pip 
-create project command :  $ django-admin startproject myApplication 
+install python , install pip , install django with pip, 
+create project command :  $ django-admin startproject myApplication .
 
-Run the Server 
-python manage.py runserver , we will have a specific port  , for exemple : "Starting development server at http://127.0.0.1:8000/" so the port is 8000 (check if you don't have another server runing in this port)
+Run the Server  : 
+$ python manage.py runserver ,  we will have a specific port  , for exemple : "Starting development server at http://127.0.0.1:8000/" so the port is 8000 (check if you don't have another server runing in this port)
 
 now we can see our application 
 
