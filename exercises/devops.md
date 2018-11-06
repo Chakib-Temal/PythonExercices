@@ -20,3 +20,16 @@ application on a Linux+Apache+mod_wsgi stack? What would be the first component 
 ## Security
 
 What are the main security measures that would seem important for a startup our size and in our industry to take?
+
+here are some security methods :
+    for the code : 
+        use good frameworks (especially in web), there are frameworks that provide security by using good template engine (faills XSS, SQL injection ...)
+        use new technologies to facilitate work and be faster (use of libraries and ORM to manage databases for example)
+
+    for the infrastructure:
+        work with Git (keep the code clean)
+        use backups, firewalls to manage network flow (blocking and authorization)
+        encrypting data by installing software that touches the lower layers of the network (software installation and VPN ...)
+        manage the server users well
+
+there are other ways of security of course
